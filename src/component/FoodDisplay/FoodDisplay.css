@@ -1,0 +1,31 @@
+.food-display{
+    margin-top:30px;
+}
+.food-display h2{
+    font-size:max(2vw,24px);
+    font-weight:600;
+}
+.food-display-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    margin-top:30px;
+    gap:30px;
+    row-gap:50px;
+}
+.food-display {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.food-display h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.food-display-list {
+  display: flex;
+  flex-wrap: wrap;   /* ✅ lets items go to next row if space ends */
+  justify-content: center;  /* ✅ centers all cards horizontally */
+  gap: 20px;  /* space between cards */
+}
